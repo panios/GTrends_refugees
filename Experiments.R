@@ -149,7 +149,8 @@ RMSE.svm
 MAE.svm
 
 ############################# PLOT ALL ############################# 
-
+#The code draws from: https://www.r-bloggers.com/part-4a-modelling-predicting-the-amount-of-rain/
+                         
 accuracy <- data.frame(Method = c("Baseline","Linear Regression","Full tree","Pruned tree","Random forest","SVM"),
                        RMSE   = c(RMSE.baseline,RMSE.lin.reg,RMSE.rtree,RMSE.rtree.pruned,RMSE.forest,RMSE.svm),
                        MAE    = c(MAE.baseline,MAE.lin.reg,MAE.rtree,MAE.rtree.pruned,MAE.forest,MAE.svm))
