@@ -7,6 +7,6 @@ The directory contains the following files:
 
 1. R code for the five models used to predcit arrival times in Greece: baseline model, multiple log linear regression, fully-grown decision tree, pruned decision tree, and random forest.
 
-2. Google Trend keyword data
+2. Google Trends keyword data.
 
-3. Questionnaires
+3. Questionnaires. 
